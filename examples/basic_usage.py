@@ -1,6 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 from fbchat import Client
+from fbchat.models import Message, ThreadType
 
 client = Client('<email>', '<password>')
 
